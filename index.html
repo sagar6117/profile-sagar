@@ -4,32 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>INDEX</title>
+
+    <!-- Icon CDN Coded Link -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Font CDN Code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <style>
       header {
         background-color: #004aad;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Poppins', sans-serif;
         color: #ffffff;
         width: 100%;
         height: 50px;
         text-align: left;
-
         padding: 20px 20px;
+        vertical-align: middle;
+        
       }
 
       nav {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Poppins', sans-serif;
         color: #000000;
         width: 100%;
         height: 25px;
-
         padding: 20px 20px;
         font-weight: bold;
       }
-      span {
-        padding-right: 20px;
+      header span {
+        margin-right: 20px;
+       
       }
 
-      footer {
+      header{
+        text-align: right;
+      }
+
+      #info{
+        vertical-align: bottom;
+      }
+
+      header img{
+        width: 30px;
+        height: 30px;
+        float: left;
+        padding-top: 5px;
+        vertical-align: middle;
+      }
+
+      footer {  
         background-color: #afe2e5;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: #ffffff;
@@ -50,16 +76,24 @@
       #homeLink {
         margin-left: 10px;
       }
+
+     
     </style>
   </head>
   <body>
     <!-- Header Section -->
-    <header>
-      <p>
-        <span><strong>Name:</strong> Sagar Chaudhari </span>
-        <span><strong>Mobile:</strong> 9028386117 </span>
-        <span><strong>Email: </strong>sagarhs6117@gmail.com </span>
-      </p>
+    <header class="info">
+      <span><img src="devloper.png" alt="" ></span>
+      
+        <span> <i class="fa fa-user" aria-hidden="true" style="font-size:25px"></i>
+         &nbsp;Sagar Chaudhari </span>
+
+        <span><i class="fa fa-phone" aria-hidden="true" style="font-size:25px"></i>
+          &nbsp;9028386117 </span>
+
+        <span> <i class="fa fa-envelope" aria-hidden="true" style="font-size:25px"></i>
+          &nbsp; sagarhs6117@gmail.com </span>
+   
     </header>
 
     <!-- Nevigation Section -->
@@ -105,10 +139,11 @@
     <!-- Footer Section -->
     <footer>
       <a href="https://www.linkedin.com/in/sagar-chaudhari-38303622b/">
-        Linked In</a>
+        <span><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size:30px"></i></span></a>
       
-      <a href="https://github.com/sagar6117">GitHub</a>
-      <a href="https://www.naukri.com/">Naukari</a>
+      <a href="https://github.com/sagar6117"><span><i class="fa fa-github-square" aria-hidden="true" style="font-size:30px"></i></span></i></a>
+      <span><a href="https://www.naukri.com/"><i class="fa fa-briefcase" aria-hidden="true" style="font-size:30px"> </a></i>
+      </span>
     </footer>
   </body>
 </html>
